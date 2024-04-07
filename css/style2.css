@@ -4,6 +4,20 @@ body   {font-family: Arial, Helvetica, sans-serif; /* overflow: hidden; */ }
 ul     {list-style: none;}
 a      {text-decoration: none;}
 
+.main_page_link {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  padding: 5px;
+  width: 250px;
+  color: orangered;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 7px;
+  
+ 
+  box-shadow: 0px 0px 10px 2px  rgba(0, 0, 0, 0.1);
+}
 
 .presentation_container {
   display: flex;
@@ -11,13 +25,15 @@ a      {text-decoration: none;}
   justify-content:space-around;
   gap:10px;
   margin: 0 auto;
-  padding-top: 90px;
+  padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
   width: 1190px;
   box-shadow: 0px 0px 10px 2px  rgba(0, 0, 0, 0.1);
 }
+
+.name_presentation_container {text-align: center;}
 
 .subject_presentation_container {
   display: flex;

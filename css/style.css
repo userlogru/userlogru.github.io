@@ -6,7 +6,7 @@ html {display: flex;}
 
 body {
   width: auto; height:auto; margin:0px auto;
-  width: auto; max-width: auto;
+  max-width: 1200px;
 }
 
 header {
