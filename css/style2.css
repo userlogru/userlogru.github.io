@@ -1,0 +1,149 @@
+*      {box-sizing: border-box; margin: 0; padding: 0;}
+html   {width: 1200px; margin: auto; scroll-behavior: smooth;}
+body   {font-family: Arial, Helvetica, sans-serif; /* overflow: hidden; */ }
+ul     {list-style: none;}
+a      {text-decoration: none;}
+
+
+.presentation_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  gap:10px;
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  width: 1190px;
+  box-shadow: 0px 0px 10px 2px  rgba(0, 0, 0, 0.1);
+}
+
+.subject_presentation_container {
+  display: flex;
+  padding: 10px 10px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color:brown;
+  text-align:center;
+  border: 1px dotted blue;
+  border-radius: 20px;
+  background-color:rgba(222, 222, 222, 0.3);
+}
+
+.fio_presentation_container {
+  display: flex;
+  padding: 10px 10px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  color:cadetblue;
+  text-align:start ;
+  border: 1px dotted blue;
+  border-radius: 20px;
+  background-color:rgba(222, 222, 222, 0.3);
+}
+
+.age_presentation_container {
+  display: flex;
+  padding: 10px 10px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  color:cadetblue;
+  text-align:start ;
+  border: 1px dotted blue;
+  border-radius: 20px;
+  background-color:rgba(222, 222, 222, 0.3);
+}
+
+.list_myself_presentation_container {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  font-size: 14px;
+  font-weight: 400;
+  text-indent: 20px;
+  line-height: 22px;
+  color: #141024;
+  padding: 10px 35px;
+  text-align:justify ;
+  border: 1px dotted blue;
+  border-radius: 20px;
+  list-style:disc;
+}
+
+.foto_presentation_container {
+  display: flex;
+  width: 160px;
+  height: 160px;
+  border: 2px solid cadetblue;
+  border-radius: 20px;
+}
+
+
+.Result_table_myself_presentation_container {
+  width: 1170px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+
+.Result_table_myself_presentation_container caption{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom:5px;
+  margin-bottom: 3px;
+	font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: brown;
+  border: 1px dotted blue;
+  border-radius: 20px;
+}
+
+.Result_table_myself_presentation_container th{
+  text-align: center;
+  padding: 15px;
+	border: 1px solid #141024;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #141024;
+}
+
+.Result_table_myself_presentation_container td{
+  text-align: justify;
+	padding: 10px ;
+	border: 1px solid #141024;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #141024;
+  text-indent: 20px;
+  width: 390px;
+}
+
+.about_presentation_container {
+  display: flex;
+  height: 30px;
+  width: 1190px;
+  box-shadow: 0px 0px 10px 2px  rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
