@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NoteLink</title>
@@ -13,52 +13,36 @@
     <script type="text/javascript">
       function viewgoogle() {document.getElementById('google').style.display="block";}
       function linkgoogle() {window.open('https://www.google.ru/', '_blank');}
-
       function viewya() {document.getElementById('ya').style.display="block";}
       function linkya() {window.open('https://ya.ru/', '_blank');}
-
       function viewrambler() {document.getElementById('rambler').style.display="block";}
       function linkrambler() {window.open('https://www.rambler.ru/', '_blank');}
-
       function viewmail() {document.getElementById('mail').style.display="block";}
       function linkmail() {window.open('https://mail.ru/', '_blank');}
-
       function viewyoutube() {document.getElementById('youtube').style.display="block";}
       function linkyoutube() {window.open('https://www.youtube.com/', '_blank');}
-
       function viewrutube() {document.getElementById('rutube').style.display="block";}
       function linkrutube() {window.open('https://rutube.ru/', '_blank');}
-
       function viewwink() {document.getElementById('wink').style.display="block";}
       function linkwink() {window.open('https://wink.ru/', '_blank');}
-
       function viewkinopoisk() {document.getElementById('kinopoisk').style.display="block";}
       function linkkinopoisk() {window.open('https://www.kinopoisk.ru/', '_blank');}
-
       function viewivi() {document.getElementById('ivi').style.display="block";}
       function linkivi() {window.open('https://www.ivi.ru/', '_blank');}
-
       function viewhabr() {document.getElementById('habr').style.display="block";}
       function linkhabr() {window.open('https://habr.com/ru/feed/', '_blank');}
-
       function viewvz() {document.getElementById('vz').style.display="block";}
       function linkvz() {window.open('https://vz.ru/', '_blank');}
-
       function viewvalidatorw3() {document.getElementById('validatorw3').style.display="block";}
       function linkvalidatorw3() {window.open('https://validator.w3.org/', '_blank');}
-
       function viewnic() {document.getElementById('nic').style.display="block";}
       function linknic() {window.open('https://www.nic.ru/', '_blank');}
-
       function viewfigma() {document.getElementById('figma').style.display="block";}
       function linkfigma() {window.open('https://www.figma.com/', '_blank');}
-
       function viewcodepen() {document.getElementById('codepen').style.display="block";}
       function linkcodepen() {window.open('https://codepen.io/', '_blank');}
-
       function viewkafedragoodline() {document.getElementById('kafedragoodline').style.display="block";}
       function linkkafedragoodline() {window.open('https://www.kafedra-goodline.info/', '_blank');}
-    
 
       function hideall() 
       {document.getElementById('google').style.display="none";
@@ -77,89 +61,85 @@
       document.getElementById('figma').style.display="none";
       document.getElementById('codepen').style.display="none";
       document.getElementById('kafedragoodline').style.display="none";}
-    
     </script>
 
   </head>
 
   <body>
-
     <header>
 
-      <div class="header_container">
-
+      <div class="header_container"> 
         <div class="logo_header">
-          <img class="logo_picture" src="./favicon.png" alt="Логотип NoteLink">
-          <h1 class="logo_text">NoteLink</h1>
+          <img class="logo_picture animate__animated animate__backInLeft" onclick="hideall()" src="./favicon.png" alt="Логотип NoteLink">
+          <h1 class="logo_text animate__animated animate__backInLeft">NoteLink</h1>
         </div>
 
         <nav class="nav_header">
-
           <ul class="list_nav_header">
-        
             <li class="item_list_nav_header">
               <a class="link_list_nav_header" href="#">Авторизация</a>
             </li>
-
             <li class="item_list_nav_header">
               <a class="link_list_nav_header" href="index2.html">Презентация</a>
             </li>
-
             <li class="item_list_nav_header">
               <a class="link_list_nav_header" href="https://github.com/userlogru/userlogru.github.io">Проект на Git</a>
             </li>
-
           </ul>
-
         </nav>
-
       </div>
 
     </header>
 
-    <main>
-      <div class="diiv">
-        <div  class="divv">  <img   onclick="hideall(),viewgoogle()"              class="img_icon  google-icon"           src="./img/google-icon.png"           alt="google">            </div>
-        <div  class="divv">  <img   onclick="hideall(),viewya()"                  class="img_icon  ya-icon"               src="./img/ya-icon.png"               alt="ya">                </div>
-        <div  class="divv">  <img   onclick="hideall(),viewrambler()"             class="img_icon  rambler-icon"          src="./img/rambler-icon.png"          alt="rambler">           </div>
-        <div  class="divv">  <img   onclick="hideall(),viewmail()"                class="img_icon  mail-icon"             src="./img/mail-icon.png"             alt="mail">              </div>
-        <div  class="divv">  <img   onclick="hideall(),viewyoutube()"             class="img_icon  youtube-icon"          src="./img/youtube-icon.png"          alt="youtube">           </div>
-        <div  class="divv">  <img   onclick="hideall(),viewrutube()"              class="img_icon  rutube-icon"           src="./img/rutube-icon.png"           alt="rutube">            </div>
-        <div  class="divv">  <img   onclick="hideall(),viewwink()"                class="img_icon  wink-icon"             src="./img/wink-icon.png"             alt="wink">              </div>
-        <div  class="divv">  <img   onclick="hideall(),viewkinopoisk()"           class="img_icon  kinopoisk-icon"        src="./img/kinopoisk-icon.png"        alt="kinopoisk">         </div>
-        <div  class="divv">  <img   onclick="hideall(),viewivi()"                 class="img_icon  ivi-icon"              src="./img/ivi-icon.png"              alt="ivi">               </div>
-        <div  class="divv">  <img   onclick="hideall(),viewhabr()"                class="img_icon  habr-icon"             src="./img/habr-icon.png"             alt="habr">              </div>
-        <div  class="divv">  <img   onclick="hideall(),viewvz()"                  class="img_icon  vz-icon"               src="./img/vz-icon.png"               alt="vz">                </div>
-        <div  class="divv">  <img   onclick="hideall(),viewvalidatorw3()"         class="img_icon  validatorw3-icon"      src="./img/validatorw3-icon.png"      alt="validatorw3">       </div>
-        <div  class="divv">  <img   onclick="hideall(),viewnic()"                 class="img_icon  nic-icon"              src="./img/nic-icon.png"              alt="nic">               </div>
-        <div  class="divv">  <img   onclick="hideall(),viewfigma()"               class="img_icon  figma-icon"            src="./img/figma-icon.png"            alt="figma">             </div>
-        <div  class="divv">  <img   onclick="hideall(),viewcodepen()"             class="img_icon  codepen-icon"          src="./img/codepen-icon.png"          alt="codepen">           </div>
-        <div  class="divv">  <img   onclick="hideall(),viewkafedragoodline()"     class="img_icon  kafedragoodline-icon"  src="./img/kafedragoodline-icon.png"  alt="kafedragoodline">   </div>
-      </div>
+    <main >
 
-      <div class="diiw">
-        <div  class="diw">   <img onclick="linkgoogle()" class="img_site" src="./img/google.png"           alt="google"           id="google"></div>
-        <div  class="diw">   <img onclick="linkya()" class="img_site" src="./img/ya.png"               alt="ya"               id="ya"></div>
-        <div  class="diw">   <img onclick="linkrambler()" class="img_site" src="./img/rambler.png"          alt="rambler"          id="rambler"></div>
-        <div  class="diw">   <img onclick="linkmail()" class="img_site" src="./img/mail.png"             alt="mail"             id="mail"></div>
-        <div  class="diw">   <img onclick="linkyoutube()" class="img_site" src="./img/youtube.png"          alt="youtube"          id="youtube"></div>
-        <div  class="diw">   <img onclick="linkrutube()" class="img_site" src="./img/rutube.png"           alt="rutube"           id="rutube"></div>
-        <div  class="diw">   <img onclick="linkwink()" class="img_site" src="./img/wink.png"             alt="wink"             id="wink"></div>
-        <div  class="diw">   <img onclick="linkkinopoisk()" class="img_site" src="./img/kinopoisk.png"        alt="kinopoisk"        id="kinopoisk"></div>
-        <div  class="diw">   <img onclick="linkivi()" class="img_site" src="./img/ivi.png"              alt="ivi"              id="ivi"></div>
-        <div  class="diw">   <img onclick="linkhabr()" class="img_site" src="./img/habr.png"             alt="habr"             id="habr"></div>
-        <div  class="diw">   <img onclick="linkvz()" class="img_site" src="./img/vz.png"               alt="vz"               id="vz"></div>
-        <div  class="diw">   <img onclick="linkvalidatorw3()" class="img_site" src="./img/validatorw3.png"      alt="validatorw3"      id="validatorw3"></div>
-        <div  class="diw">   <img onclick="linknic()" class="img_site" src="./img/nic.png"              alt="nic"              id="nic"></div>
-        <div  class="diw">   <img onclick="linkfigma()" class="img_site" src="./img/figma.png"            alt="figma"            id="figma"></div>
-        <div  class="diw">   <img onclick="linkcodepen()" class="img_site" src="./img/codepen.png"          alt="codepen"          id="codepen"></div>
-        <div  class="diw">   <img onclick="linkkafedragoodline()" class="img_site" src="./img/kafedragoodline.png"  alt="kafedragoodline"  id="kafedragoodline"></div>
-      </div>
+      <section>  
+        <nav>  
+          <ul class="page_icon">
+            <li  class="page_icon_item">  <img   onclick="hideall(),viewgoogle()"              ondblclick="linkgoogle()"           class="img_icon  google-icon"           src="./img/google-icon.png"           alt="google">            </li>
+            <li  class="page_icon_item">  <img   onclick="hideall(),viewya()"                  ondblclick="linkya()"               class="img_icon  ya-icon"               src="./img/ya-icon.png"               alt="ya">                </li>
+            <li  class="page_icon_item">  <img   onclick="hideall(),viewrambler()"             ondblclick="linkrambler()"          class="img_icon  rambler-icon"          src="./img/rambler-icon.png"          alt="rambler">           </li>
+            <li  class="page_icon_item">  <img   onclick="hideall(),viewmail()"                ondblclick="linkmail()"             class="img_icon  mail-icon"             src="./img/mail-icon.png"             alt="mail">              </li>
+            <li  class="page_icon_item">  <img   onclick="hideall(),viewyoutube()"             ondblclick="linkyoutube()"          class="img_icon  youtube-icon"          src="./img/youtube-icon.png"          alt="youtube">           </li>
+            <li  class="page_icon_item">  <img   onclick="hideall(),viewrutube()"              ondblclick="linkrutube()"           class="img_icon  rutube-icon"           src="./img/rutube-icon.png"           alt="rutube">            </li>
+            <li  class="page_icon_item">  <img   onclick="hideall(),viewwink()"                ondblclick="linkwink()"             class="img_icon  wink-icon"             src="./img/wink-icon.png"             alt="wink">              </li>
+            <li  class="page_icon_item">  <img   onclick="hideall(),viewkinopoisk()"           ondblclick="linkkinopoisk()"        class="img_icon  kinopoisk-icon"        src="./img/kinopoisk-icon.png"        alt="kinopoisk">         </li>
+            <li  class="page_icon_item">  <img   onclick="hideall(),viewivi()"                 ondblclick="linkivi()"              class="img_icon  ivi-icon"              src="./img/ivi-icon.png"              alt="ivi">               </li>
+            <li  class="page_icon_item">  <img   onclick="hideall(),viewhabr()"                ondblclick="linkhabr()"             class="img_icon  habr-icon"             src="./img/habr-icon.png"             alt="habr">              </li>
+            <li  class="page_icon_item">  <img   onclick="hideall(),viewvz()"                  ondblclick="linkvz()"               class="img_icon  vz-icon"               src="./img/vz-icon.png"               alt="vz">                </li>
+            <li  class="page_icon_item">  <img   onclick="hideall(),viewvalidatorw3()"         ondblclick="linkvalidatorw3()"      class="img_icon  validatorw3-icon"      src="./img/validatorw3-icon.png"      alt="validatorw3">       </li>
+            <li  class="page_icon_item">  <img   onclick="hideall(),viewnic()"                 ondblclick="linknic()"              class="img_icon  nic-icon"              src="./img/nic-icon.png"              alt="nic">               </li>
+            <li  class="page_icon_item">  <img   onclick="hideall(),viewfigma()"               ondblclick="linkfigma()"            class="img_icon  figma-icon"            src="./img/figma-icon.png"            alt="figma">             </li>
+            <li  class="page_icon_item">  <img   onclick="hideall(),viewcodepen()"             ondblclick="linkcodepen()"          class="img_icon  codepen-icon"          src="./img/codepen-icon.png"          alt="codepen">           </li>
+            <li  class="page_icon_item">  <img   onclick="hideall(),viewkafedragoodline()"     ondblclick="linkkafedragoodline()"  class="img_icon  kafedragoodline-icon"  src="./img/kafedragoodline-icon.png"  alt="kafedragoodline">   </li>
+          </ul>
+        </nav>
+      </section>
+
+      <section>
+        <ul class="page_preview">
+          <li  class="page_preview_item">   <img   onclick="linkgoogle()"           class="img_site" src="./img/google.png"                   alt="google"           id="google">             </li>
+          <li  class="page_preview_item">   <img   onclick="linkya()"               class="img_site" src="./img/ya.png"                       alt="ya"               id="ya">                 </li>
+          <li  class="page_preview_item">   <img   onclick="linkrambler()"          class="img_site" src="./img/rambler.png"                  alt="rambler"          id="rambler">            </li>
+          <li  class="page_preview_item">   <img   onclick="linkmail()"             class="img_site" src="./img/mail.png"                     alt="mail"             id="mail">               </li>
+          <li  class="page_preview_item">   <img   onclick="linkyoutube()"          class="img_site" src="./img/youtube.png"                  alt="youtube"          id="youtube">            </li>
+          <li  class="page_preview_item">   <img   onclick="linkrutube()"           class="img_site" src="./img/rutube.png"                   alt="rutube"           id="rutube">             </li>
+          <li  class="page_preview_item">   <img   onclick="linkwink()"             class="img_site" src="./img/wink.png"                     alt="wink"             id="wink">               </li>
+          <li  class="page_preview_item">   <img   onclick="linkkinopoisk()"        class="img_site" src="./img/kinopoisk.png"                alt="kinopoisk"        id="kinopoisk">          </li>
+          <li  class="page_preview_item">   <img   onclick="linkivi()"              class="img_site" src="./img/ivi.png"                      alt="ivi"              id="ivi">                </li>
+          <li  class="page_preview_item">   <img   onclick="linkhabr()"             class="img_site" src="./img/habr.png"                     alt="habr"             id="habr">               </li>
+          <li  class="page_preview_item">   <img   onclick="linkvz()"               class="img_site" src="./img/vz.png"                       alt="vz"               id="vz">                 </li>
+          <li  class="page_preview_item">   <img   onclick="linkvalidatorw3()"      class="img_site" src="./img/validatorw3.png"              alt="validatorw3"      id="validatorw3">        </li>
+          <li  class="page_preview_item">   <img   onclick="linknic()"              class="img_site" src="./img/nic.png"                      alt="nic"              id="nic">                </li>
+          <li  class="page_preview_item">   <img   onclick="linkfigma()"            class="img_site" src="./img/figma.png"                    alt="figma"            id="figma">              </li>
+          <li  class="page_preview_item">   <img   onclick="linkcodepen()"          class="img_site" src="./img/codepen.png"                  alt="codepen"          id="codepen">            </li>
+          <li  class="page_preview_item">   <img   onclick="linkkafedragoodline()"  class="img_site" src="./img/kafedragoodline.png"          alt="kafedragoodline"  id="kafedragoodline">    </li>
+        </ul>
+      </section>
 
     </main>
 
     <footer>
-      
     </footer>
 
   </body>
