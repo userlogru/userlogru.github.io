@@ -61,8 +61,11 @@
       document.getElementById('figma').style.display="none";
       document.getElementById('codepen').style.display="none";
       document.getElementById('kafedragoodline').style.display="none";}
-    </script>
+      
+      function page_auth_enable() {document.getElementById('page_auth').style.display="block"}
 
+    </script>
+    
   </head>
 
   <body>
@@ -72,11 +75,14 @@
         <div class="logo_header">
           <img class="logo_picture animate__animated animate__backInLeft" onclick="hideall()" src="./favicon.png" alt="Логотип NoteLink">
           <h1 class="logo_text animate__animated animate__backInLeft">NoteLink</h1>
+          <h2 class="mediaqueries mediaqueries_desktop"><sup>.D</sup></h2>
+          <h2 class="mediaqueries mediaqueries_tablet"><sup>.T</sup></h2>
+          <h2 class="mediaqueries mediaqueries_mobile"><sup>.M</sup></h2>
         </div>
 
         <nav class="nav_header">
           <ul class="list_nav_header">
-            <li class="item_list_nav_header">
+            <li class="item_list_nav_header" onclick="page_auth_enable()">
               <a class="link_list_nav_header" href="#">Авторизация</a>
             </li>
             <li class="item_list_nav_header">
@@ -92,6 +98,31 @@
     </header>
 
     <main >
+
+      <section class="page_auth" id="page_auth">
+        <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+          <fieldset>
+            <legend>Введите данные для авторизации</legend>
+
+            <select name="rights">
+              <option value="user">Пользователь</option>
+              <option value="admin">Администратор</option>
+              <option value="guest">Гость</option>            
+            </select>
+            
+            <input type="text" name="name" placeholder="Введите имя" maxlength="10" />
+            <input type="password" name="password" placeholder="password" />
+                    
+            <label>
+              Я согласен со всем
+              <input type="checkbox" required>
+            </label>
+        
+            <button type="submit">Отправить</button>
+            
+          </fieldset>
+        </form>
+      </section>
 
       <section>  
         <nav>  
